@@ -5,7 +5,7 @@ export function useFetchStays() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  const DATA = "/data/stays.json";
+  const DATA = "/public/data/stays.json";
 
   useEffect(() => {
     setLoading(true);

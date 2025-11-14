@@ -1,6 +1,5 @@
 import React from "react";
 import SearchBar from "./SearchBar";
-import DarkMode from "./DarkMode";
 
 export default function Header() {
   return (
